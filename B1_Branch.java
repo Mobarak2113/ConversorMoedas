@@ -1,6 +1,7 @@
 public class mobarak_branch{
   int roll;
   String name;
+
   int id;
 
   mobarak_branch(String a, int b){
@@ -11,6 +12,7 @@ public class mobarak_branch{
   public int getRoll(){
     return roll;
   }
+
   public int getId(){
     return id;
   }
