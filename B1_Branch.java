@@ -1,7 +1,7 @@
 public class mobarak_branch{
   int roll;
   String name;
-  int i;
+  int id;
 
   mobarak_branch(String a, int b){
   this.name = a;
@@ -11,8 +11,8 @@ public class mobarak_branch{
   public int getRoll(){
     return roll;
   }
-  public int getI(){
-    return i;
+  public int getId(){
+    return id;
   }
   public void setRoll(int roll){
     this.roll = roll;
@@ -23,8 +23,8 @@ public class mobarak_branch{
   public void setName(String name){
     this.name = name;
   }
-  public void setI(int a){
-    this.i= a;
+  public void setId(int a){
+    this.id= a;
   }
 
 }
